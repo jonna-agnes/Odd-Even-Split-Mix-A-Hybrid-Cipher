@@ -10,7 +10,7 @@ Encrypt those with ceaser substitution.
  5. To decrypt: split back using counts, decrypt each part, reverse the even sequence back, then re
 insert odds and evens into original positions.
 
-⚡ Encryption Process
+#⚡ Encryption Process
 
 Odd–Even Split
 
@@ -38,7 +38,7 @@ Final ciphertext = Playfair(odd) + Caesar(even).
 
 Example: "BIRIYANI" → DAGYKCKK.
 
-🔄 Decryption Process
+#🔄 Decryption Process
 
 Split Ciphertext into Playfair part (odd letters) and Caesar part (even letters).
 
@@ -48,7 +48,7 @@ Decrypt Playfair pairs using inverse rules (left/up/rectangle swap).
 
 Recombine Odd + Even to restore the original plaintext.
 
-✅ Example
+#✅ Example
 
 Plaintext:
 
